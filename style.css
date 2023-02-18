@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Barlow';
+    overflow-x: hidden;
+}
+header{
+    padding-top: 2.3rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pre-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8eff2;
+    width: 15rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.pre-order:hover, .pre-order-txt:hover{
+    background-color: #162542;
+    color: #e8eff2;
+
+    
+}
+.pre-order-txt{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #162542;
+    line-height: 2.6rem;
+    cursor: pointer
+}
+
+
+.first-div{
+    width: 32.7rem;
+    height: 28.6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 2.4rem;
+    margin-top: 6.8rem;
+    margin-bottom: 6rem;
+
+}
+
+.title-txt{
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    font-weight: 900;
+    color: #162542;
+    text-transform: uppercase;
+}
+.improve-txt{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #7b8bad;
+}
+.two-div-order{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.second-order-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f16718;
+    width: 15rem;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.second-order-div:hover{
+    background-color: #ff9b62;
+}
+.second-order-txt{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    line-height: 2.6rem;
+    text-transform: uppercase;
+}
+.release{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+    color: #7b8bad;
+    text-transform: uppercase;
+}
+.img-keyboard-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.image-key{
+    margin-left: 2.4rem;
+    border-radius: 2rem;
+    height: 33.1rem;
+    width: 37.2;
+}
+
+.two-img-div{
+    width: 37.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.phone-and-keyboard{
+    width: 14.4rem;
+    height: 22.6rem;
+    background-color: #f16718;
+    border-radius: 2rem;
+    margin-top: 2.4rem;
+    margin-left: -3.2rem;
+
+}
+
+.phone{
+    width: 14.4rem;
+    height: 22.6rem;
+    border-radius: 2rem;  
+    opacity: 0.5;
+}
+
+
+
+.glass{
+    width: 22rem;
+    height: 22.6rem;
+    margin-top: 2.4rem;
+}
+.glass-img{
+    width: 22rem;
+    height: 22.6rem; 
+    border-radius: 2rem;
+}
+.mechanical{
+    margin-left: 2.4rem;
+    width: 32rem;
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 7.5rem;
+}
+.mech-ttl-d{
+    width: 25rem;
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.mechanical-ttl{
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    font-weight: 900;
+    color: #162542;
+    text-transform: uppercase;
+}
+.mech-txt-d{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32.7rem;
+    height: 10.4rem;
+}
+.mechanical-txt{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    color: #7b8bad;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6.4rem;
+    padding: 2.4rem;
+    margin-top: 11.1rem;
+    padding-bottom: 0;
+}
+
+.highly-compatible, .high-capacity, .rgb-backlit, .wireless{
+    height: 29.7rem;
+    width: 32.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.highly-icon, .img-bluetooth, .img-battary, .img-light{
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #f16718;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compatible-tittle, .wireless-tittle, .high-tittle, .rgb-tittle{
+    width: 32.7rem;
+    height: 5.6rem;
+}
+.compatible-ttl, .wireless-ttl, .high-ttl, .rgb-ttl{
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+    color: #162542;
+    text-transform: uppercase;
+}
+
+
+.compatible-text, .wireless-text, .high-text, .rgb-text{
+    width: 32.7rem;
+    height: 10.4rem;
+}
+.compatible-txt, .wireless-txt, .high-txt, .rgb-txt{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+    color: #7b8bad;
+}
+
+footer{
+    height: 7.6rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 9.6rem;
+}
+.footer-txt{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #7b8bad;
+}
+
+.phone-and-keyboard-tablet, .phone-and-keyboard-desktop{
+    display: none;
+}
+.glass-tablet, .glass-desktop{
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    header{
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .pre-order{
+        width: 17.5rem;
+        height: 5.8rem;
+    }
+    .img-keyboard-div{
+        display: none;
+    }
+    .background{
+        margin-top: 6.1rem;
+        width: 33rem;
+        height: 42.5rem;
+        background-image: url(starter-code/assets/tablet/image-keyboard.jpg);
+        background-repeat: no-repeat;
+        background-size: 47rem 42rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+
+    }
+    .tablet-two-div{
+        display: flex;
+    }
+    .first-div{
+        width: 33.9rem;
+        height: 30.5rem;
+        margin: 13.1rem 6rem 3.9rem 3.9rem;
+
+    }
+    .improve-div{
+        width: 33.9rem;
+    }
+
+
+    .phone-and-keyboard{
+        display: none;
+    }
+    .phone-and-keyboard-tablet{
+        display: flex;
+        background-color: #f16718;
+        border-radius: 2rem;
+    }
+    .glass-tablet{
+       display: flex;
+    }
+    .glass{
+       display: none;
+    }
+    .two-img-div{
+        width: 68.8rem;
+        height: 32rem; 
+        margin: 4rem 4rem 0rem 4rem;
+        
+    }
+ 
+    .glass-img-tablet{
+        width: 44.5rem;
+        height: 32rem;
+        border-radius: 2rem;
+    }
+
+    .phone-tablet{
+        width: 21.4rem;
+        height: 32rem;
+        border-radius: 2rem;
+        opacity: 0.5;
+    }
+
+
+    .mechanical{
+        margin-left: 3.9rem;
+        width: 68.9rem;
+        height: 10.8rem;
+        flex-direction: row;
+        margin-top: 9.7rem;
+    }
+   
+   .mech-ttl-d{
+    text-align: start;
+   }
+    .mech-txt-d{
+        text-align: start;
+    
+        width: 39.8rem;
+        height: 7.8rem;
+    }
+    .container{
+        row-gap: 6.9rem;
+        column-gap: 7.2rem;
+        padding: 3.9;
+    }
+
+    .highly-compatible, .high-capacity, .rgb-backlit, .wireless{
+        height: 28.9rem;
+        width: 28.1rem;
+        align-items: flex-start;
+        text-align: start;
+    }
+    
+    .compatible-text, .wireless-text, .high-text, .rgb-text{
+        width: 28.1rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1440px){
+    header{
+        padding-top: 7rem;
+        padding-left: 17rem;
+        padding-right: 17rem;
+    }
+    .first-div{
+        width: 44.5rem;
+        height: 31.2rem;
+        margin-top: 15.2rem;
+        margin-left: 16.5rem;
+    }
+    .improve-div{
+        width: 44.5rem;
+        height: 7.8rem;
+    }
+    .improve-txt{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .second-order-div, .pre-order{
+        width: 17.5rem;
+        height: 5.8rem;
+    }
+    body{
+        background-image: url(starter-code/assets/shared/pattern-square.svg), url(starter-code/assets/shared/pattern-square.svg);
+        background-repeat: no-repeat;
+        background-position: 130rem 21.5rem,  -13rem 97rem;;
+    }
+    .background{
+        margin-top: 8.3rem;
+        margin-left: 6rem;
+        width: 54rem;
+        height: 48rem;
+        background-image: url(starter-code/assets/desktop/image-keyboard.jpg);
+        background-repeat: no-repeat;
+        background-size: 54rem 48rem;
+        border-radius: 2rem;
+    }
+
+    .phone-and-keyboard-tablet{
+        display: none;
+    }
+    .phone-and-keyboard-desktop{
+        display: flex;
+        background-color: #f16718;
+        border-radius: 2rem;
+    }
+    .glass-tablet{
+        display: none;
+
+    }
+    .glass-desktop{
+        display: flex;
+    }
+     .two-img-div{
+        width: 74rem;
+        height: 48rem; 
+        margin: 4rem 12.5rem 0rem 16.5rem;
+        
+    }
+
+    .glass-img-desktop{
+        width: 44.5;
+        height: 48rem;
+        border-radius: 2rem;
+    }
+    .phone-desktop{
+        width: 25.5rem;
+        height: 48rem;
+        border-radius: 2rem;
+        opacity: 0.5;
+    }
+    .just-usedesktop{
+        display: flex;
+    }
+
+    .mechanical{
+        width: 26rem;
+        height: 26.5rem;
+        flex-direction: column;
+        margin-top: 14.2rem;
+        margin-left: 0;
+
+    }
+   
+    .mech-txt-d{
+        width: 26rem;
+        height: 13rem;
+    }
+    .container{
+        gap: 3rem;
+        padding: 0;
+        margin-bottom: 0;
+        
+    }
+
+    .highly-compatible, .high-capacity, .rgb-backlit, .wireless{
+        height: 32.3rem;
+        width: 25.5rem;
+        align-items: flex-start;
+        text-align: start;
+    }
+    
+    .compatible-text, .wireless-text, .high-text, .rgb-text{
+        width: 25.5rem;
+        height: 13rem;
+    }
+    footer{
+        margin-top: 12.8rem;
+    }
+}
+
+
+
+
