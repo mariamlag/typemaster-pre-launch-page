@@ -34,11 +34,13 @@ header{
     border-radius: 0.8rem;
     cursor: pointer;
 }
-.pre-order:hover, .pre-order-txt:hover{
-    background-color: #162542;
+.pre-order:hover .pre-order-txt{
     color: #e8eff2;
 
     
+}
+.pre-order:hover:hover {
+  background-color: #162542;
 }
 .pre-order-txt{
     font-size: 1.6rem;
